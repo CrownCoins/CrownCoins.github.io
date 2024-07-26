@@ -513,10 +513,11 @@ button {
 .computer_text_main {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the items horizontally */
     margin: 0 auto;
     text-align: center;
     align-items: center;
+    gap: 10px; /* Add a gap between the items if needed */
 }
 .dell_text {
     font-size: 20px;
@@ -889,4 +890,7 @@ button {
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+  
+
+
   
