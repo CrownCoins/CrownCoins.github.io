@@ -566,6 +566,34 @@ button {
     background-color: #403f3f;
 }
 
+.text-container {
+    width: 60%;
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    gap: 10px; /* Add a gap between the items if needed */
+    
+}
+
+.comment-box {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-size: 16px;
+    color: #ff5d68;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 /* coins section end */
 
 
