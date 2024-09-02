@@ -335,18 +335,18 @@ button {
 
 
 /* bar section start */
-.catagary_section{
+.category_section{
     width: 100%;
     float: left;
     background-color: #143a51;
     height: auto;
     padding: 30px 0px;
 }
-.catagary_main{
+.category_main{
     width: 100%;
     float: left;
 }
-.categary_text{
+.category_text{
     width: 100%;
     float: left;
     font-size: 24px;
@@ -356,120 +356,42 @@ button {
     text-transform: uppercase;
     padding: 0px;
 }
-.catagary_menu{
+.category_menu{
     width: 100%;
     float: left;
 }
-.catagary_menu ul{
+.category_menu ul{
     margin: 0px;
     padding: 0px;
     display: inline-block;
     text-align: center;
 }
-.catagary_menu li{
+.category_menu li{
     float: left;
     font-size: 18px;
     color: #ffffff;
     padding: 0px 10px;
 }
-.catagary_menu li a{
+.category_menu li a{
     color: #ffffff;
 }
-.catagary_menu li a:hover{
+.category_menu li a:hover{
     color: #ff5d68;
 }
-.catagary_section_2{
+.category_section_2{
     width: 100%;
     float: left;
-}
-.box_man{
-    width: 100%;
-    border: 1px solid #9fa0a1;
-    padding: 25px;
-    border-radius: 1px;
-}
-.mobile_text{
-    width: 100%;
-    font-size: 30px;
-    color: #2b2c31;
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.mobile_img {
-    width: 100%;
-    text-align: center;
-    padding: 30px 0px;
-}
-.watch_img {
-    width: 100%;
-    text-align: center;
-    padding: 70px 0px;
-}
-.camera_img {
-    width: 100%;
-    text-align: center;
-    padding: 95px 0px 94px 0px;
-}
-.cart_main{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    text-align: center;
-    align-items: center;
-}
-
-.cart_bt{
-}
-.cart_bt a{
-    width: 100%;
-    float: left;
-    font-size: 14px;
-    color: #ffffff;
-    background-color: #ff5d68;
-    text-align: center;
-    padding: 8px 14px;
-}
-.cart_bt a:hover{
-    color: #ffffff;
-    background-color: #403f3f;
-}
-.samsung_text {
-    font-size: 20px;
-    color: #000;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 6px 0px 0px 0px;
-}
-
-.rate_text {
-    font-size: 16px;
-    color: #ff5d68;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 8px 0px 0px 0px;
-}
-.rate_text a {
-    color: #ff5d68;
-}
-
-.rate_text_1 {
-    color: #636262;
-    font-size: 14px;
-    text-decoration: line-through;
-    padding: 8px 0px 0px 0px;
 }
 
 /* catagary section end */
 
 /* coins section start */
 
-.computers_section{
+.coin_section{
     width: 100%;
     float: left;
 }
-.computers_taital{
+.coin_title{
     width: 100%;
     float: left;
     font-size: 40px;
@@ -480,26 +402,26 @@ button {
 }
 
 
-.computers_section_2{
+.coin_section_2{
     width: 100%;
     float: left;
 }
 
-.computer_main {
+.coin_main {
     width: 100%;
     float: left;
     padding: 50px 40px 50px 40px;
     margin-top: 90px;
 }
 
-.computer_img {
+.coin_img {
     width: 100%;
     text-align: center;
     padding-top: 20px;
     min-height: 310px;
 }
 
-.computer_text{
+.coin_text{
     width: 100%;
     font-size: 20px;
     color: #000000;
@@ -510,7 +432,7 @@ button {
     padding-bottom: 20px;
 }
 
-.computer_text_main {
+.coin_text_main {
     width: 60%;
     display: flex;
     justify-content: center; /* Center the items horizontally */
@@ -519,7 +441,7 @@ button {
     align-items: center;
     gap: 10px; /* Add a gap between the items if needed */
 }
-.dell_text {
+.acoin_text {
     font-size: 20px;
     color: #000;
     text-transform: uppercase;
