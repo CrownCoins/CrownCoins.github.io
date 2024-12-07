@@ -1,35 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      
+   <head>      
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- mobile metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
       <title>CrownCoins</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
       <meta name="darkreader-lock">
-      <!-- bootstrap css -->
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-      <!-- style css -->
       <link rel="stylesheet" type="text/css" href="css/style.css">
-      <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
       <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <!-- fonts -->
       <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-      <!-- owl stylesheets --> 
       <link rel="stylesheet" href="css/owl.carousel.min.css">
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -40,15 +28,18 @@
    <body>
 
       <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
-      
-      <!-- header section start -->
+
       <div class="header_section haeder_main">
          <div class="container-fluid">
             <nav class="navbar navbar-light bg-light justify-content-between">
                <div id="mySidenav" class="sidenav">
                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                  <!-- Meniu -->
                   <a href="#Lietuva" onclick="closeNav()">Džersis</a>
                   <a href="#Latvija" onclick="closeNav()">Guernsis</a>
+
+
                </div>
                
                <span style="font-size:30px;cursor:pointer; color: #fff;" onclick="openNav()"><img src="images/toggle-icon.png"></span>
@@ -65,9 +56,9 @@
             </nav>
          </div>
       </div>
-      <!-- header section end -->
+
       &nbsp;
-      <!-- catagory section start -->
+
       <div class="category_section layout_padding">
          <div class="container">
             <div class="category_main">
@@ -86,20 +77,24 @@
       </div>
 
 
-      <!-- Džersis -->
+      
 
-
+      <!-- Pavadinimas - DŽERSIS -->
       <div class="coin_section layout_padding">
          <section id="Lietuva">
             <div class="container">
-               <h1 class="coin_title">Džersis</h1>
+               <h1 class="coin_title">Džersis</h1> 
             </div>
          </section>
       </div>
+
+
+      <!-- 3 eilutės monetų-->
       <div class="coin_section_2">
          <div class="container-fluid">
             <div class="coin_main">
                <div class="row">
+                  <!-- Moneta-->
                   <div class="col-md-4">
                      <div class="coin_img"><img src="images/dzersis1.jpg"></div>
                      <h4 class="coin_text">Remembrance Day 5£  </h4>
@@ -111,9 +106,9 @@
                         <h4 class="acoin_text">Kokybė:</h4>
                         <h6 class="price_text">UNC</h6>
                      </div>
-                     <div class="cart_bt_1"><a href="https://en.m.ucoin.net/coin/jersey-5-pounds-2014/?tid=51307" target="_blank">Plačiau</a></div>
+                     <div class="cart_bt_1"><a href="https://en.m.ucoin.net/coin/jersey-5-pounds-2014/?tid=51307" target="_blank">Plačiau</a></div> <!--Nuoroda-->
                   </div>
-                  
+                  <!-- Moneta (Pabaiga)-->
                   <div class="col-md-4">
                      <div class="coin_img"><img src="images/dzersis2.jpg"></div>
                      <h4 class="coin_text">50th Anniversary - Accession of Queen Elizabeth II, 2002 5£</h4>
@@ -127,13 +122,14 @@
                      </div>
                      <div class="cart_bt_1"><a href="https://en.ucoin.net/coin/jersey-5-pounds-2002/?tid=48226" target="_blank">Plačiau</a></div>
                   </div>
+
                </div>
             </div>
          </div>
       </div>
 
 
-      <!-- Guernsis -->
+      <!-- Pavadinimas - GUERNSIS -->
 
       
       <div class="coin_section layout_padding">
@@ -143,6 +139,9 @@
             </div>
          </section>
       </div>
+
+
+
       <div class="coin_section_2">
          <div class="container-fluid">
             <div class="coin_main">
@@ -181,18 +180,16 @@
 
 
 
-      
-      <!-- computers section end -->
-      <!-- Javascript files-->
+
+
+
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/jquery-3.0.0.min.js"></script>
       <script src="js/plugin.js"></script>
-      <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
-      <!-- javascript --> 
       <script src="js/owl.carousel.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>  
       <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
@@ -208,10 +205,8 @@
 
 
 <script>
-   // Get the button
    let mybutton = document.getElementById("myBtn");
    
-   // When the user scrolls down 20px from the top of the document, show the button
    window.onscroll = function() {scrollFunction()};
    
    function scrollFunction() {
@@ -222,7 +217,6 @@
      }
    }
    
-   // When the user clicks on the button, scroll to the top of the document
    function topFunction() {
      document.body.scrollTop = 0;
      document.documentElement.scrollTop = 0;
